@@ -1,0 +1,120 @@
+/* Text */
+body{
+    background-color: whitek;
+  }
+  h1, h2, h3,h4, h5, h6 {
+    font-family: 'Herr Von Muellerhoff', sans-serif;
+    text-shadow: 0 0 3px #FF1200;
+  }
+  h1{
+    color:#FF1200;
+    font-size: 80px;
+    text-shadow: 0 0 4px #FF1200;
+  }
+  h2{
+    color:#FF1200;
+    font-size: 80px;
+    text-shadow: 0 0 4px #FF1200;
+  }
+  h3{
+    color: #D42D20;
+    font-size: 42px;
+  }
+  h5{
+    color:#FF1200;
+    font-size: 56px;
+    text-shadow: 0 0 3px #FF1200;
+  }
+  p {
+    font-family: 'Offside', sans-serif;
+    color: #FF1200;
+  }
+  .offside {
+    font-family: Offside, sans-serif;
+  }
+  /* Navigation bar */
+  
+  /* General */
+  .btn{
+    background-color: #FFD700;
+    border: 0px; 
+    min-width: min-content;
+  }
+  .btn:hover{
+    background-color: #000000;
+  }
+  .valueProp p{
+    color:#FF1200;
+  }
+  .btn-primary {
+    background-color: #FFD700 !important;
+    color: #FF1200;
+  }
+  .btn-primary:hover {
+    background-color: #000000 !important;
+    color: #FF1200;
+  }
+  .btn-primary:active{
+    background-color: #FFD700 !important;
+    border: 0px !important;
+  }
+  .customNav {
+    position: fixed;
+    width: 100%;
+    background: url("../images/transparency.png");
+    background-color: transparent !important;
+    background-size: cover;
+    z-index: 10;
+  }
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+  }
+  .navbar-brand img {
+    padding-right: 15px;
+    width: 65px;
+  }
+  .nav-item {
+    font-family: Offside, sans-serif;
+    margin: 0px 15px;
+  }
+  
+  /* Navigation dropdown menu */
+  .dropdown-menu {
+    background: url("../images/transparency.png");
+    background-color: transparent !important;
+    background-size: cover;
+  }
+  .dropdown-item:focus, .dropdown-item:hover {
+      color: #16181b;
+      text-decoration: none;
+      background: black;
+  }
+  
+  /* Navigation links */
+  .customNav a {
+    color: #D42D20 !important;
+  }
+  .navCTA {
+    font-size: 15px;
+  }
+  
+  /* Jumbotron  */
+  .jumbotron {
+    background-image: url("https://pitchfork.com/features/cover-story/reader/daft-punk/images/s7-0v2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh - 25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Jumbotron copy */
+  .jumboCopy {
+    width: 70%;
+    min-width: 500px;
+    max-width: 700px;
+    color: #D42D20 !important;;
+    text-align: center;
+  }
