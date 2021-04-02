@@ -140,6 +140,11 @@ p {
 .cardContainer {
   text-align: center;
 }
+.cardContainer img {
+  height: 200px;
+  max-width: auto;
+  object-fit: cover;
+}
 
 /* Content */
 .sideAccent {
